@@ -1,0 +1,6 @@
+version: '3.8'
+services:
+  team-test:
+    image: solution:1.0.0-SNAPSHOT
+    ports:
+      - "456:8080"

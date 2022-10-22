@@ -1,0 +1,16 @@
+team: TEAM_NAME
+
+image:
+  tag: 1.0.0-SNAPSHOT
+  pullPolicy: Always
+
+auth:
+  clientId: CLIENT_ID
+  clientSecret: CLIENT_SECRET
+  keycloakBaseUrl: http://keycloak.creators-contest-2022:80
+
+backend:
+  baseUrl: http://backend.creators-contest-2022:8080
+
+ingress:
+  host: creators-contest-2022.itestra.de

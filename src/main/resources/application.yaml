@@ -1,0 +1,19 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          keycloak:
+            client-id: ${CLIENT_ID:clientId}
+            client-secret: ${CLIENT_SECRET:clientSecret}
+            authorization-grant-type: client_credentials
+        provider:
+          keycloak:
+            token-uri: ${KEYCLOAK_BASE_URL:'https://creators-contest-2022.itestra.de'}/auth/realms/creators-contest-2022/protocol/openid-connect/token
+
+logging:
+  level:
+    org.springframework.web: DEBUG
+
+backend:
+  baseUrl: ${BACKEND_BASE_URL:'http://creators-contest-2022.itestra.de'}

@@ -1,0 +1,15 @@
+image:
+  repository:
+  tag: latest
+  pullPolicy: IfNotPresent
+
+
+auth:
+  clientId:
+  clientSecret:
+
+ingress:
+  host:
+
+backend:
+  baseUrl: http://backend.creators-contest-2022:8080
