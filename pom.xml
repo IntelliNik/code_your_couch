@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>de.itestra.creators-contest-2022</groupId>
-    <artifactId>solution-team-TEAM_NAME</artifactId>
+    <artifactId>solution-team-aixtra</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
     <properties>
@@ -27,7 +27,7 @@
             </activation>
             <properties>
                 <spring.profiles.active>dev</spring.profiles.active>
-                <docker.repository>europe-west3-docker.pkg.dev/creators-contest-2022/team-TEAM_NAME/solution
+                <docker.repository>europe-west3-docker.pkg.dev/creators-contest-2022/team-aixtra/solution
                 </docker.repository>
             </properties>
         </profile>

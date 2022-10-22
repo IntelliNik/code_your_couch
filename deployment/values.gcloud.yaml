@@ -1,12 +1,12 @@
-team: TEAM_NAME
+team: aixtra
 
 image:
   tag: 1.0.0-SNAPSHOT
   pullPolicy: Always
 
 auth:
-  clientId: CLIENT_ID
-  clientSecret: CLIENT_SECRET
+  clientId: aixtra
+  clientSecret: e88b73df-df66-4196-8860-43d5f4f27d2d
   keycloakBaseUrl: http://keycloak.creators-contest-2022:80
 
 backend:
